@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import QuestionCard from './components/QuestionCard';
+import { getQuizQuestions } from './API';
+import { Difficulty } from './API';
 
 const TOTAL_QUESTIONS = 10;
 
@@ -10,6 +12,8 @@ function App() {
   const [userAnswers, setUserAnswers] = useState([]);
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(true);
+
+  console.log(getQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY));
   
   async function startQuiz() {
 
@@ -31,14 +35,14 @@ function App() {
       </button>
       <p className="score">Score: </p>
       <p>Loading. Please wait...</p> 
-      <QuestionCard 
+      {/* <QuestionCard 
         questionNumber={number + 1}
         totalQuestions={TOTAL_QUESTIONS}
         question={questions[number].question}
         answers={questions[number].answers}
         userAnswer={userAnswers ? userAnswers[number] : undefined}
         callback={checkAnswer}
-      />
+      /> */}
       <button className="next" onClick={nextQuestion}>
         Next Question 
       </button>
