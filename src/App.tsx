@@ -51,9 +51,8 @@ function App() {
           Start quiz
         </button>
       ) : null }
-
-      <p className="score">Score: </p>
-      <p>Loading. Please wait...</p>
+      { !gameOver ? <p className="score">Score: </p> : null }
+      { loading && <p>Loading. Please wait...</p> }
       {/* <QuestionCard 
         questionNumber={number + 1}
         totalQuestions={TOTAL_QUESTIONS}
