@@ -1,5 +1,5 @@
 import styled, {createGlobalStyle} from "styled-components";
-import BGImage from './images/lakes-bg.jpg';
+import BGImage from './images/movies2-bg.jpg';
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -34,20 +34,18 @@ export const Wrapper = styled.div`
   .score {
     color: #fff;
     font-size: 2rem;
-    margin: 0;
+    margin: 5px;
+    background-color: rgba(0,0,0,0.50);    
+    padding: 0px 30px;
   }
 
   h1 {
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
-    background-size: 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    filter: drop-shadow(2px 2px #0085a3);
+    background-color: rgba(0,0,0,0.50);    
+    padding: 0px 30px;
     font-size: 70px;
-    font-weight: 400;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
     margin: 20px;
   }

@@ -10,7 +10,7 @@ export const Wrapper = styled.div`
   text-align: center;
 
   p {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 `
 
@@ -28,7 +28,7 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
 
   button {
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     width: 100%;
     height: 40px;
     margin: 5px 0;
