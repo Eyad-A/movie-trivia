@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/movie-trivia/static/js/main.d87b69c5.chunk.js",
+    "main.js.map": "/movie-trivia/static/js/main.d87b69c5.chunk.js.map",
+    "runtime-main.js": "/movie-trivia/static/js/runtime-main.43f1b201.js",
+    "runtime-main.js.map": "/movie-trivia/static/js/runtime-main.43f1b201.js.map",
+    "static/js/2.34570a87.chunk.js": "/movie-trivia/static/js/2.34570a87.chunk.js",
+    "static/js/2.34570a87.chunk.js.map": "/movie-trivia/static/js/2.34570a87.chunk.js.map",
+    "index.html": "/movie-trivia/index.html",
+    "static/js/2.34570a87.chunk.js.LICENSE.txt": "/movie-trivia/static/js/2.34570a87.chunk.js.LICENSE.txt",
+    "static/media/movies2-bg.7d5c0ec2.jpg": "/movie-trivia/static/media/movies2-bg.7d5c0ec2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43f1b201.js",
+    "static/js/2.34570a87.chunk.js",
+    "static/js/main.d87b69c5.chunk.js"
+  ]
+}
