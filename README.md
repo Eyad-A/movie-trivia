@@ -5,5 +5,6 @@ the [Open Trivia Database API](https://opentdb.com/)
 
 ## Project instructions
 
-In the project directory, run: `npm install` and then `npm start` 
+In the project directory, run: `npm install` and then `npm start`  
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
