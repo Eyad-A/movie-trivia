@@ -27,7 +27,7 @@ const App: React.FC = () => {
     setLoading(true);
     setGameOver(false);
 
-    const newQuestions = await getQuizQuestions(TOTAL_QUESTIONS, Difficulty.EASY);
+    const newQuestions = await getQuizQuestions(TOTAL_QUESTIONS, Difficulty.MEDIUM);
 
     setQuestions(newQuestions);
     setScore(0);
